@@ -1,6 +1,7 @@
 #Hosted link :
 https://gauravjoshiji.github.io/MusicPlayerAppJavascript/
-1> This is a Three Page web Application on which first section is main section of the application and there are two more one is about Artist and play-list and oter is about music.
+
+#1> This is a Three Page web Application on which first section is main section of the application and there are two more one is about Artist and play-list and oter is about music.
 
 2> From first page we can go to any of theas pages by clicking on to the images of section.
 
