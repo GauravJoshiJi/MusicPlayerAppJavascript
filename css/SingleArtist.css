@@ -1,0 +1,167 @@
+/******** Google Font Nunito ********/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+
+/*********************** Main Layout ***************************/
+.layout {
+  height: 1600px;
+  width: 950px;
+  margin-left: 50px;
+  padding-top: 100px;
+  color: white;
+}
+
+.artist-page {
+  background: linear-gradient(to bottom right, #0c1027, #000);
+  height: 390px;
+  width: 1000px;
+}
+
+.artist-page img {
+  margin-top: 100px;
+  width: 250px;
+  border-radius: 4px;
+}
+
+.artist-details {
+  display: flex;
+  flex-direction: row;
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+}
+/* 
+.singer-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 400px;
+  margin-left: 20px;
+  margin-right: 50%;
+  display: inline-block;
+} */
+.singer-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 100px 0px 0px 50px;
+  color: white;
+}
+
+.followers {
+  margin: 0px 0px 0px 500px;
+  font-size: 12px;
+  color: grey;
+}
+.btn {
+  margin-top: -100px;
+}
+.singer-desc {
+  width: 70%;
+  margin-left: 275px;
+  color: rgb(228, 229, 235);
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  text-align: left;
+  margin-top: -200px;
+  vertical-align: top;
+  margin-bottom: 100px;
+}
+
+.artist-page button {
+  margin-left: 300px;
+  vertical-align: middle;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.15s;
+  background: linear-gradient(to right, #3524af, #b845db);
+}
+
+.artist-page button:hover {
+  color: white;
+}
+
+.artist-page .follow {
+  margin-left: 50px;
+  color: white;
+  border: 1px solid black;
+}
+
+.artist-page .follow:hover {
+  color: #c51230;
+  cursor: pointer;
+}
+
+/* .tracks {
+  margin-left: 27%;
+  margin-top: 100px;
+  font-size: 1300px;
+} */
+
+.tracks {
+  color: gray;
+  margin-left: 27%;
+  margin-top: -20px;
+  font-size: 15px;
+  /* font-size: 25px; */
+  font-weight: 700;
+}
+
+Lata Mangeshkar
+Ravi Shankar
+Bismillah khan
+Jagjit Singh
+Asha Bhosle
+Kishore Kumar
+Nusrat Fateh Ali Khan
+zakir Hussain
+
+/***************************** css for songs container ***********************************/
+.songs-container {
+  margin-top: -80px;
+  padding-top: 30px;
+}
+
+.songs {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.songs:hover {
+  background-color: #0a121a;
+  transition: 0.3s linear;
+}
+
+.songs .index {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.songs img {
+  width: 80px;
+  height: 60px;
+}
+
+.songs .name {
+  margin-left: 2%;
+  width: 40%;
+  font-size: 16px;
+}
+
+.songs .artist {
+  margin-left: 10%;
+  font-size: 15px;
+
+  width: 20%;
+}
+
+.songs i {
+  margin-left: 3%;
+}
